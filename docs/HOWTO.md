@@ -172,7 +172,9 @@ Deploy the entire application:
 ```bash
 docker compose up -d
 ```
+
 ![Docker Compose Up](screenshots/02-compose-up.png)
+
 Verify:
 
 ```bash
@@ -190,24 +192,33 @@ Check running containers:
 ```bash
 docker ps
 ```
+
 ![Docker PS](screenshots/03-docker-ps.png)
+
 Check networks:
 
 ```bash
 docker network ls
 ```
+
 ![Docker Network](screenshots/04-network.png)
+
 Check volumes:
 
 ```bash
 docker volume ls
+
 ```
+
 ![MongoDB Volume](screenshots/05-mongo-volume.png)
+
 Open application:
 
 ```text
 http://localhost:5173
 ```
+
 ![Application Running](screenshots/01-app-running.png)
+
 Confirm data is stored in MongoDB successfully.
 
